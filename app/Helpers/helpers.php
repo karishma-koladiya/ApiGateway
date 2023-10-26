@@ -1,7 +1,7 @@
 <?php
 
 function setName($name){
-	return ucfirst($name);
+	return ucwords($name);
 }
 
 ?>
